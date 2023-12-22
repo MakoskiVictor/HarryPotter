@@ -17,12 +17,9 @@ export default function Create() {
 
     await fetch(POST_URL, {
       method: "POST",
-      headers: { "Content-Type": "applicattion/json" },
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(character),
     })
-      .then(() => {
-        console.log(JSON.stringify(character));
-      })
       .then(() => {
         setName("");
         setGender("");
