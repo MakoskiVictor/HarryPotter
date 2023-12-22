@@ -1,0 +1,19 @@
+.card {
+  width: 250px;
+  height: 450px;
+  border: solid 1px gray;
+  border-radius: 5px;
+  padding: 1px;
+  margin: 20px;
+}
+.img_cont {
+  width: 250px;
+  height: auto;
+  border-radius: 5px 0px 0px 5px;
+}
+img {
+  object-fit: fill;
+  width: 250px;
+  height: 300px;
+  border-radius: 5px 0px 0px 5px;
+}

@@ -1,0 +1,69 @@
+.section {
+  padding: 10px;
+  height: 100vh;
+  width: 100%;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.form {
+  padding: 5px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  border: solid 2px gray;
+}
+
+input {
+  width: 80%;
+  height: 30px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.loading {
+  margin: auto;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.btn {
+  background-color: rgb(64, 64, 239);
+  display: inline-block;
+  width: 200px;
+  height: 35px;
+  margin: 20px;
+  border-radius: 5px;
+  border: solid 0px;
+  cursor: pointer;
+}
+
+.btn2 {
+  background-color: rgb(107, 107, 107);
+  display: inline-block;
+  width: 200px;
+  height: 35px;
+  margin: 20px;
+  border-radius: 5px;
+  border: solid 0px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(102, 102, 246);
+  animation-name: btn_ani;
+  animation-duration: 0.3s;
+}
+
+@keyframes btn_ani {
+  from {
+    background-color: rgb(64, 64, 239);
+  }
+  to {
+    background-color: rgb(77, 77, 237);
+  }
+}
